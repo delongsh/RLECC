@@ -167,6 +167,7 @@ if __name__ == '__main__':
     class_order = np.load('split/'+args.dataset.upper() + '_class_order_{}.npy'.format(num_classes))[args.seed].tolist()
     tasks = []
     p = 0
+    t = 0
     while p < num_classes:
         inc = args.task_size[1] if p > 0 else args.task_size[0]
         tasks.append(class_order[p:p+inc])
