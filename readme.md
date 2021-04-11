@@ -1,4 +1,4 @@
-This repository is code for our paper **Face Template Protection Through Residual Learning Based Error Correction Codes**.
+This repository is code for our paper **Face Template Protection Through Residual Learning Based Error-Correcting Codes**.
 ## Introduction
 This code aims to implement a face template protection technique by using residual learning, which maps the facial images into low-density parity-check (LDPC) codewords. This implementation is based on [PyTorch][1]. In this paper, we use the [LDPC coding][2] algorithm developed by Radford M. Neal. The [trained CNN model on extended Yale Face B with d = 256][3] can be downloaded.
 
